@@ -1,0 +1,26 @@
+.profileCard {
+display: flex;
+flex-direction: column;
+box-shadow: 1px -3px 8px 1px rgba(0, 0, 0, 0.2);
+margin: 40px auto;
+width: 17%;
+padding: 20px;
+border-radius: 5px;
+}
+.container {
+    margin: 15 px; 
+}
+.containerLabel {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(36, 38, 41, 0.493);
+}
+.btn {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 17px;
+}
+.btn:hover {
+    background-color:#7b9aee;
+      transition: 0.7s;
+}
